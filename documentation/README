@@ -1,0 +1,33 @@
+Install Sphinx First:
+
+	sudo apt-get install python-sphinx
+
+
+Then in documentation, just type:
+
+	make html
+
+
+Output will at:
+
+	documentation/build/html
+
+
+reStructuredText Primer:
+	http://sphinx.pocoo.org/rest.html
+
+
+reStructuredText Directives:
+	http://docutils.sourceforge.net/docs/ref/rst/directives.html
+
+
+Online Practice:
+	http://rst.ninjs.org/
+
+
+Sphinx Inline Markup:
+	http://sphinx.pocoo.org/markup/inline.html
+
+
+Sphinx Paragraph-level markup:
+	http://sphinx.pocoo.org/markup/para.html

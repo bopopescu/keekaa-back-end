@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% set title = 'Overview' %}
+{% block body %}
+  <h1>Welcome to Backstage</h1>
+
+  <p>
+    <a href="http://trello.com">Let's work hard and finish what we are assigned before our time runs out.</a>
+  </p>
+
+  <h2>Documentation</h2>
+
+  <table class="contentstable" align="center" style="margin-left: 30px"><tr>
+    <td width="50%">
+      <p class="biglink"><a class="biglink" href="{{ pathto("front-end/index") }}">Front-end</a><br/>
+         <span class="linkdescr">for cute children</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("back-end/index") }}">Back-end</a><br/>
+         <span class="linkdescr">for diligent daemons</span></p>
+    </td><td width="50%">
+      <p class="biglink"><a class="biglink" href="{{ pathto("search") }}">Search page</a><br/>
+         <span class="linkdescr">search the documentation</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("content") }}">General Index</a><br/>
+         <span class="linkdescr">all functions, classes, terms</span></p>
+    </td></tr>
+  </table>
+{% endblock %}
