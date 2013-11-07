@@ -1,0 +1,6 @@
+#MySQL-python
+#uwsgi
+#mimeparse
+#python-dateutil
+#python-digest
+#wsgiref
