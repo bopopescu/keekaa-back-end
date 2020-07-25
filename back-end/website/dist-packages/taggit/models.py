@@ -24,7 +24,7 @@ class TagBase(models.Model):
                 using = kwargs.get("using") or router.db_for_write(
                     type(self), instance=self)
                 # Make sure we write to the same db for all attempted writes,
-                # with a multi-master setup, theoretically we could try to
+                # with a multi-main setup, theoretically we could try to
                 # write and rollback on different DBs
                 kwargs["using"] = using
                 trans_kwargs = {"using": using}
